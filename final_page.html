@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .background-video{
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            object-fit: cover;
+        }
+        .content{
+            padding-top: 100px;
+            position: relative;
+            border: 2px solid black;
+            margin: 0% auto;
+            width: 50%;
+            text-align: center;
+            background-color: azure;
+            font-size: 30px;
+
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="C:\Users\Jaykishan\Desktop\Web Development\Images\video1.mp4">
+    </video>
+    <div class="content">
+        <h1><font size="20">Your account has been sucessfully created</font><h1>
+        <p><button onclick="window.location.href='account_setup.html'" style="height: 50px; width: 100px; background-color: lawngreen;">Create new account</button>
+        <button>Feedback</button></p><br><r><br><br></br>
+        </div>
+</body>
+</html>
